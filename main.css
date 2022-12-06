@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.main{
+    height: 100%;
+    margin-top: 30px;
+    font-size: 0;
+}
+
+.profile{
+    vertical-align: top;
+    height: 100%;
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    font-size: initial;
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+
+.devs{
+    height: 100%;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    font-size: initial;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    margin-top: 50px;
+    padding-left: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.title{
+    font-size: 180%;
+    font-weight: bolder;
+}
+
+.subtitle{
+    padding-left: 10px;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.element{
+    padding-left: 20px;
+    font-size: larger;
+}
