@@ -1,45 +1,83 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 html{
     height: 100%;
 }
-body{
+body{padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
     height: 100%;
 }
 .main{
     height: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 0;
 }
 
+.mydata{
+    width: 1000px;
+}
 .profile{
     vertical-align: top;
-    height: 100%;
-    width: 40%;
-    padding-top: 10px;
-    padding-left: 10px;
+    height: 300px;
+    width: 600px;
+    margin-left: 10%;
+    padding: 30px;
     display: inline-block;
     font-size: initial;
     background-color: gainsboro;
     box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.profielimg{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    background-image: url("images/my_image.jpeg");
+    background-position: top;
+    margin-bottom: 20px;
+}
+
+.icon{
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.mail-icon{
+    background-image: url("images/mail_icon.jpg");
+}
+
+.github-icon{
+    background-image: url("images/github-mark-white.png");
+    vertical-align:sub;
+}
+
+.sns{
+    margin-top: 20px;
 }
 
 .devs{
-    height: 100%;
-    width: 60%;
+    height: 50%;
+    width: 1000px;
     display: inline-block;
     text-align: left;
     font-size: initial;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 30px;
+    background-color: gainsboro;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .portfolio{
-    margin-top: 50px;
     padding-left: 30px;
     font-size: xx-large;
     font-weight: bolder;
@@ -48,6 +86,7 @@ body{
 .name{
     font-size: x-large;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 
@@ -65,4 +104,9 @@ body{
 .element{
     padding-left: 20px;
     font-size: larger;
+    opacity: 0.7;
+}
+
+.work-product-list{
+    margin-left: 30px;
 }
